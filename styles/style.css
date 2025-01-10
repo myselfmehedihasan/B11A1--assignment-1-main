@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Fira Sans", serif;
+}
+
+body{
+    background: #F5F5F5;
+}
+
+nav {
+    padding: 20px;
+}
+
+nav a {
+    color: #0E0E0E;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+}
+
+nav button {
+    padding: 15px 30px;
+    border-radius: 8px;
+    border: 1px solid #006A50;
+    color: #006A50;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+nav button:hover {
+    background: #006A50;
+    color: white;
+}
+
+
+.navber-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.banner {
+    margin-top: 20px;
+    border-radius: 24px;
+    background: #C6E4D6;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 100px;
+}
+
+.banner .banner-text h4 {
+    color: rgba(14, 14, 14, 0.50);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.banner .banner-text p {
+    color: #0E0E0E;
+    font-family: "Fira Sans";
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    max-width: 600px;
+}
+
+.primary-btn {
+    margin-top: 24px;
+    padding: 17px 34px;
+    border-radius: 8px;
+    background: #006A50;
+    color: #FFF;
+    font-family: "Fira Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+}
+
+.primary-btn:hover {
+    background: #7cccb5;
+}
+
+.pillars-heading {
+    color: #0E0E0E;
+    font-family: "Fira Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 80px;
+}
+
+.pillars-container {
+    margin-top: 32px;
+    display: flex;
+    gap: 24px;
+}
+
+.pillar img {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 24px;
+
+}
+
+.pillar h4 {
+    color: rgba(14, 14, 14, 0.80);
+    font-family: "Fira Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 12px;
+}
+
+.pillar p {
+    color: rgba(14, 14, 14, 0.70);
+    font-family: "Fira Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+}
+
+.pillar {
+    padding: 24px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: #FFF;
+    border-radius: 16px;
+    width: 300px;
+    margin-bottom: 80px;
+    
+}
